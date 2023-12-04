@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temporales</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="header">
+      <div class="logo">
+        <img src="../img/logo2.png" alt="logo de web Adopdogs-cba">
+      </div>
+    <nav>
+        <ul class="nav-links">           
+            <li><a href="../pages/adopciones.html" class="enlace">Adopciones</a></li>         
+            <li><a href="../pages/donaciones.html" class="enlace">Donaciones</a></li>          
+            <li><a href="../pages/nosotros.html" class="enlace">Sobre Nosotros</a></li>
+            <li><a href="../index.html">Home</a></li>             
+        </ul>
+     </nav>
+  </header>  
+    
+    <h1>Si podes brindar un hogar temporal, dejanos tus datos y nos comunicamos</h1>
+    
+    <main>  
+      <div>      
+            <form class="form" action="form.php" method="POST">         
+                <label for="nombre">Nombre</label> 
+                <input type="text" name="introducir_nombre" id="nombre" required="obligatorio">                                    
+                        
+                <label for="email" class="colocar_email">Email</label>                        
+                <input type="email" name="introducir_email" id="email" required="obligatorio"> 
+
+                <label for="telefono" class="colocar_telefono">Teléfono</label>  
+                <input type="tel" name="introducir_telefono" id="telefono">
+                        
+                <label for="asunto" class="colocar_asunto">Asunto </label> 
+                <input type="text" name="introducir_asunto" id="assunto" required="obligatorio">
+                        
+                <label for="mensaje" class="colocar_mensaje">Mensaje</label>                     
+                <textarea name="mensaje" id="texto-mensaje" cols="15" rows="6"></textarea>
+                        
+                <input type="submit" value="Enviar">
+                <span class="obligatorio"> * </span>Los campos son obligatorios.  
+            </form>
+      </div>  
+    </main>
+
+  <footer>
+   <p id="p3">Diseñado por Christian Lenain. Todos los derechos reservados</p>
+  </footer>    
+</body>
+</html>
+
