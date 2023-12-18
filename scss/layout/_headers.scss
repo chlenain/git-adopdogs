@@ -1,0 +1,26 @@
+.header {
+    background-color: #F9B572;
+    display: flex;
+    justify-content: flex-end;
+    height: 60px;
+    font-size: 19px;
+    .navbar {
+        height: 70px;
+        width: auto;
+        }
+        .nav-link:hover {
+            background-color: coral;
+            color: black;
+            transition: 0.5s;
+            transform: scale(1.1);
+        }
+        .dropdown-menu .dropdown-item:hover {
+            background-color: lightblue;
+            color: black;
+            transition: 0.5s;
+        }
+        .logo-header {
+            height: 90;
+            width: 80px;
+        }
+}

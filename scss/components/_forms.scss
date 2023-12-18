@@ -1,0 +1,21 @@
+.form {
+    @extend %flex;
+    width: 95%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0rem;
+    flex-direction: column;
+    .form-input {
+        width: 90%;
+        height: 30px;
+        margin: 0.5rem;
+    }
+}
+
+iframe {
+    position: absolute;
+    top: 0.5;
+    width: 100%;
+    height: 100%;
+}

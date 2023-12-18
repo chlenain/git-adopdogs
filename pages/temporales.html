@@ -4,22 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Temporales</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
   <header class="header">
-      <div class="logo">
-        <img src="../img/logo2.png" alt="logo de web Adopdogs-cba">
-      </div>
-    <nav>
-        <ul class="nav-links">           
-            <li><a href="../pages/adopciones.html" class="enlace">Adopciones</a></li>         
-            <li><a href="../pages/donaciones.html" class="enlace">Donaciones</a></li>          
-            <li><a href="../pages/nosotros.html" class="enlace">Sobre Nosotros</a></li>
-            <li><a href="../index.html">Home</a></li>             
-        </ul>
-     </nav>
-  </header>  
+    <nav class="navbar navbar-expand-sm navbar-light fixed-top py-lg-0">
+        <div class="container-fluid">
+          <a class="navbar-brand justify-content-end" href="#">
+            <img class="logo-header" src="../img/logo2.png" alt="logo de web Adopdogs-cba">
+          </a>
+          <button class ="navbar-toggler" type ="button" data-toggle ="collapse" data-target ="#colNav">
+            <span class ="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../pages/adopciones.html">Adopciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/donaciones.html">Donaciones</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contacto
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Whatsapp</a></li>
+                  <li><a class="dropdown-item" href="#">Instagram</a></li>
+                  <li><a class="dropdown-item" href="#">Email</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+  </header>
+
     
     <h1>Si podes brindar un hogar temporal, dejanos tus datos y nos comunicamos</h1>
     
@@ -39,7 +64,7 @@
                 <input type="text" name="introducir_asunto" id="assunto" required="obligatorio">
                         
                 <label for="mensaje" class="colocar_mensaje">Mensaje</label>                     
-                <textarea name="mensaje" id="texto-mensaje" cols="15" rows="6"></textarea>
+                <textarea name="mensaje" id="texto-mensaje" cols="10" rows="5"></textarea>
                         
                 <input type="submit" value="Enviar">
                 <span class="obligatorio"> * </span>Los campos son obligatorios.  

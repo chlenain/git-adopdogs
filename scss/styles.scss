@@ -1,0 +1,82 @@
+@import "../layout/html";
+@import "../layout/headers";
+@import "../scss/layout/html";
+@import "../scss/layout/footer";
+@import "../utilities/mixin";
+@import "../utilities/extend";
+@import "../components/forms";
+
+
+
+.container {
+    margin-top: 80px;
+    max-width: max-content;
+    min-height: max-content;
+    border: 3px solid;
+    flex-wrap: wrap;
+    column-gap: 5px;
+}
+
+.img {
+    @include img
+}
+
+.index-p {
+    text-align: justify;
+    text-transform: capitalize;
+    margin-top: 150px;
+}
+
+
+section {
+    @extend %flex;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    section p {
+        display: flex;
+        padding: 1.5rem 0.5rem;
+        justify-content: center;
+        font-size: 20px;
+        color: #FFFFFF;
+        .section-adopciones {
+            margin-top: 10px;
+            margin-bottom: 50px;
+        }
+    }
+}
+
+h1 {
+    margin-top: 10px;
+    @include color-h;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+h2 {
+    @include color-h;
+    font-size: 25px;
+    display: grid;
+    text-align: center;
+    text-decoration-line: overline;
+}
+
+h3 {
+    font-size: 20px;
+    @include color-h;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.col {
+    color: tomato;
+}
+
+article {
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+}

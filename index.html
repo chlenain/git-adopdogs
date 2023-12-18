@@ -12,16 +12,38 @@
 
 <body>
     <header class="header">
-        <div class="logo">
-            <img src="../git-adopdogs/img/logo2.png" alt="logo de web Adopdogs-cba">
-        </div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="../git-adopdogs/pages/adopciones.html" class="enlace">Adopciones</a></li>                
-                <li><a href="../git-adopdogs/pages/temporales.html" class="enlace">Temporales - Provisorios</a></li>         
-                <li><a href="../git-adopdogs/pages/donaciones.html" class="enlace">Donaciones</a></li>          
-                <li><a href="../git-adopdogs/pages/nosotros.html" class="enlace">Sobre Nosotros</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-sm fixed-top navbar-light py-lg-0">
+            <div class="container-fluid">
+              <a class="navbar-brand justify-content-end" href="#">
+                <img class="logo-header" src="../git-adopdogs/img/logo2.png" alt="logo de web Adopdogs-cba">
+              </a>
+              <button class ="navbar-toggler" type ="button" data-toggle ="collapse" data-target ="#colNav">
+                <span class ="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item:hover">
+                    <a class="nav-link" aria-current="page" href="../git-adopdogs - copia/pages/adopciones.html">Adopciones</a>
+                  </li>
+                  <li class="nav-item:hover">
+                    <a class="nav-link" aria-current="page" href="../git-adopdogs - copia/pages/temporales.html">Provisorios</a>
+                  </li>
+                  <li class="nav-item:hover">
+                    <a class="nav-link" href="../git-adopdogs - copia/pages/donaciones.html">Donaciones</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contacto
+                    </a>
+                    <ul class="dropdown-menu dropdown">
+                      <li><a class="dropdown-item" href="#">Whatsapp</a></li>
+                      <li><a class="dropdown-item" href="#">Instagram</a></li>
+                      <li><a class="dropdown-item" href="#">Email</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
         </nav>
     </header>
 
@@ -30,16 +52,21 @@
         <h2>Brindamos ayuda para nuestros mejores compañeros de vida</h2>
     </main>
 
+    <section>
+      <p>Este proyecto surgió debido a la carencia tan notoria de hogar, amor y compañia que vemos en la actualidad con los perros y perras en todo el país. Al pasar el tiempo es cada vez más evidente que nuestras mascotas son extremadamente leales y compañeras (inclusive en mayor medida que las personas).</p>
+      <p>Ellos piden a cambio solamente un poco de nuestro tiempo y cariño, es tan dificil brindárselos?</p>
+    </section>
+    
     <div class="container square-box d-flex justify-content-center align-items-center">
-        <div><img src="../git-adopdogs/img/adop1.jpg" alt=""></div>
-        <div><img src="../git-adopdogs/img/adop2.png" alt=""></div>
-        <div><img src="../git-adopdogs/img/adop3.jpg" alt=""></div>
+        <div><img src="../git-adopdogs/img/adop1.jpg" alt="imagen de perros"></div>
+        <div><img src="../git-adopdogs/img/adop2.png" alt="imagen de perro"></div>
+        <div><img src="../git-adopdogs/img/adop3.jpg" alt="imagen de perros"></div>
     </div>
 
     
 
 <footer>
-    <p id="p3">Diseñado por Christian Lenain. Todos los derechos reservados</p>
+    <p>Diseñado por Christian Lenain. Todos los derechos reservados</p>
 </footer>  
  </body>
 </html>
