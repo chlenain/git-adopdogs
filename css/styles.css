@@ -77,6 +77,13 @@ iframe {
   border: 3px solid;
   flex-wrap: wrap;
   column-gap: 5px; }
+  .container .container-donations {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center; }
 
 .img {
   max-width: 100%;

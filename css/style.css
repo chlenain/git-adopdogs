@@ -53,6 +53,15 @@ body {
     column-gap: 5px;
 }
 
+.container-donations {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
 .img {
     max-width: 100%;
     max-height: 100%;
@@ -125,7 +134,7 @@ h3 {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 140px;
+    margin-top: 50px;
 }
 
 .col {
