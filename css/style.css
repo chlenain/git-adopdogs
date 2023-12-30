@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-    background-color: #F9B572;
+    background-color: #FBAB7E;
     display: flex;
     justify-content: flex-end;
     height: 60px;
@@ -42,7 +42,6 @@ body {
     height: 90;
     width: 80px;
 }
-
 
 .container {
     margin-top: 80px;
@@ -164,8 +163,7 @@ footer {
     bottom: 0;
     width: 100%;
     text-decoration: solid underline;
-    background-color: #F9B572;
-    color: #654B2E; 
+    background-color: #FBAB7E;
 }
 
 @media screen and (max-width:500px) {
