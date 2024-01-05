@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Donaciones</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -12,7 +13,7 @@
   <header class="header">
     <nav class="navbar navbar-expand-sm navbar-light fixed-top py-lg-0">
         <div class="container-fluid">
-          <a class="navbar-brand justify-content-end" href="#">
+          <a class="navbar-brand justify-content-end" href="../index.html">
             <img class="logo-header" src="../img/logo2.png" alt="logo de web Adopdogs-cba">
           </a>
           <button class ="navbar-toggler" type ="button" data-toggle ="collapse" data-target ="#colNav">
@@ -33,10 +34,10 @@
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Contacto
                 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Whatsapp</a></li>
-                  <li><a class="dropdown-item" href="#">Instagram</a></li>
-                  <li><a class="dropdown-item" href="#">Email</a></li>
+                <ul class="dropdown-menu dropdown">
+                  <li><a class="dropdown-item" target="_blank" href="https://web.whatsapp.com/"  >Whatsapp</a></li>
+                  <li><a class="dropdown-item" target="_blank" href="https://www.instagram.com/">Instagram</a></li>
+                  <li><a class="dropdown-item" target="_blank" href="https://www.google.com/intl/es-419/gmail/about/">Email</a></li>
                 </ul>
               </li>
             </ul>
@@ -45,37 +46,49 @@
     </nav>
   </header>
 
-  <h1>Ayudanos a mantener el proyecto activo y seguir ayudando</h1>
+  <div data-aos="flip-down">
+    <h1>Ayudanos a mantener el proyecto activo y seguir ayudando</h1>
+  </div>
+  
 
   <div class="container-donations">
     <div class="card" style="width:300px">
       <img class="card-img-top" src="../img/accesories.jpg" alt="imagen de accesorios de perro">
       <div class="card-body bg-success text-white">
       <p class="card-text">Accesorios, Cuchas, Etc.</p>
-      <a href="#" class="btn btn-warning text-black">Doná</a>
+      <a target="_blank" href="https://www.mercadopago.com.ar/" class="btn btn-warning text-black">Doná</a>
       </div>
     </div>
     <div class="card" style="width:300px">
     <img class="card-img-bottom" src="../img/food.jpg" alt="imagen de bolsa de comida de perro">
     <div class="card-body bg-success text-white">
       <p class="card-text">Alimento para cachorros y adultos</p>
-      <a href="#" class="btn btn-warning text-black">Doná</a>
+      <a target="_blank" href="https://www.mercadopago.com.ar/" class="btn btn-warning text-black">Doná</a>
       </div>
     </div>
     <div class="card" style="width:300px">
     <img class="card-img-top" src="../img/money.jpg" alt="imagen de dinero y tarjeta de credito o débito">
     <div class="card-body bg-success text-white">
       <p class="card-text">Ayuda económica</p>
-      <a href="#" class="btn btn-warning text-black">Doná</a>
+      <a target="_blank" href="https://www.mercadopago.com.ar/" class="btn btn-warning text-black">Doná</a>
       </div>
     </div>
   </div> 
   
+  <div data-aos="flip-up">
     <h3>Todos los días surgen nuevos rescates de animales sin posibilidad de hogar. Lo más necesario es dinero para consultas veterinarias, cirugías o internaciones, alimento para cachorros y adultos y también alguna cama o accesorio como correas y pretales.</h3> 
+  </div>
+    
 
   <footer>
         <p>Diseñado por Christian Lenain. Todos los derechos reservados</p>
   </footer>    
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 2000
+    });
+  </script>
 </body>
 </html>
